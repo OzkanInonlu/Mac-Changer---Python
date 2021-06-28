@@ -7,7 +7,6 @@ def get_inputs():
     p_object.add_option("-i", "--int", dest="interface")
     p_object.add_option("-m", "--m", dest="mac_address")
     return p_object.parse_args()
- # tuple içinde bir dictionary bir de empty list var, 1. dict, 2. empty list
 
 
 def change_mac(interface, mac_address):
