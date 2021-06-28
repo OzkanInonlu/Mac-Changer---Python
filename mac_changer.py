@@ -16,7 +16,7 @@ def change_mac(interface, mac_address):
     time.sleep(2)
     print("Success")
     time.sleep(2)
-    sb.call(["ifconfig", "eth0"])
+    sb.call(["ifconfig", interface])
 
 
 (user_inputs, arg) = get_inputs()
